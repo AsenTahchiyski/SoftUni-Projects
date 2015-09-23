@@ -1,2 +1,2 @@
 # SoftUni-Projects
-All the projects from SoftUni
+Teamwork projects from SoftUni courses.
