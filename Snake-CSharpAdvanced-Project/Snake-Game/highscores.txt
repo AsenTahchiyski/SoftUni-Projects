@@ -1,0 +1,9 @@
+5000 TheRealExpert
+3500 ThePro
+2500 MediumGuy
+1000 TheNotBadGuy
+600 TheSemiProGuy
+200 CompleteAmateurGuy
+1038 test
+332 secondTEST
+2130 asdasdasd

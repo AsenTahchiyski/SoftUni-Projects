@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <BorderPane layoutX="228.0" layoutY="185.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="162.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="menuLabel" layoutX="314.0" layoutY="14.0" text="MENU" textAlignment="CENTER" textFill="#488049" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font size="58.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="311.0" layoutY="119.0" text="Game Options" textFill="#252020">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="startButton" layoutX="45.0" layoutY="149.0" mnemonicParsing="false" onAction="#startAction" text="START" textFill="#08a7e1" />
+                  <Button fx:id="aboutButton" layoutX="169.0" layoutY="149.0" mnemonicParsing="false" text="ABOUT" textFill="#1e141b" />
+                  <Button fx:id="exitButton" layoutX="304.0" layoutY="149.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="25.0" prefWidth="57.0" text="EXIT" textFill="#d31010" />
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="254.0" prefWidth="197.0" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuButton fx:id="moreMenu" layoutX="16.0" layoutY="3.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="126.0" text="MORE">
+                     <items>
+                        <MenuItem fx:id="upgrades" mnemonicParsing="false" text="Buy Upgrades" />
+                        <Menu mnemonicParsing="false" text="Unspecified Menu">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Action 1" />
+                          </items>
+                        </Menu>
+                        <MenuItem fx:id="showUnits" mnemonicParsing="false" onAction="#startActionShowUnits" text="Show all units" />
+                     </items>
+                  </MenuButton>
+               </children></AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

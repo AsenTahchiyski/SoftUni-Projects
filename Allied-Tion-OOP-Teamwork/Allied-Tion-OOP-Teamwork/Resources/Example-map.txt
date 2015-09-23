@@ -1,0 +1,45 @@
+|--------------------------------------------------------------------|
+|Y   \.................../  R \............................../  S /..|
+|     \................./      \....../-------\............./    /...|
+|      \.............../        \..../  B      \---\......./  X /....|
+|     X |............./          \../              G|...../    /.....|
+|\       ------------/      X     \/                |..../    /......|
+|.\            B                            X       |---/  G /.......|
+|..\                                                        /........|
+|...|  G                            /--\M                   .........|
+|...|                               \...\                   \........|
+|....\-------\   G /\                \../                    \.......|
+|.............\---/..\  G /\ U/\      \/    X             X  P\-.....|
+|.....................\  /..\/..\                 /-----\        \...|
+|......................\/........\               /.......\ B      \--|
+|.................................\B           U/.........\         E|
+|--------------------------------------------------------------------|
+|Focus : 110 | Energy: 110 | Experience: 2220  | Level: 5            |
+|Inventory: (B)eer (3), RedB(U)ll (1)                                |
+|--------------------------------------------------------------------|
+Map: 16 (+3 for game menu) x 70
+
+Normal Items (can carry max 1 of each)
+- (M)emory Upgrade 16GB (MaxFocus +20)
+- (D)isk Upgrade SSD (MaxFocus +30)
+- (P)rocessor Upgrade Core i7 (MaxEnergy +20)
+
+Special Items (can carry max 1 of each)
+- (R)esharper (MaxEnergy +50)
+- (N)akov's Book (MaxFocus +50)
+// too powerful - (S)tackOverflow Help - provide 1 random normal item and 1 normal resource
+
+Types of Heroes (SoftUni Students)
+- Normal (100,100)
+- PartyAnimal (60, 140)
+- Nerd (140, 60)
+Enemies
+- E(X)ceptions (40, 20)(Experience gain - 50)
+- Bu(G)s (30, 30) (Experience gain - 80)
+- Bosses: SoftUni (E)xams (required XP = sum of all that can be taken from other enemies on the map), Bonus = 400XP
+Resources
+- (B)eer (+ 40 Focus)
+- RedB(U)ll (+ 40 Energy)
+Out student hero: (Y)ou
+- Level up every 400 XP
+- Level up + 10 MaxFocus & MaxEnergy

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="application.Controller2ScreenGame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="201.0" layoutY="158.0" prefHeight="500.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="BACON">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="baconLabel" alignment="CENTER" layoutX="14.0" layoutY="71.0" prefHeight="15.0" prefWidth="59.0" text="Bacon" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="143.0" text="Freedom" />
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="219.0" text="Democracy" />
+                        <Label layoutX="122.0" layoutY="71.0" prefHeight="15.0" prefWidth="149.0" text="You have 5 becon" />
+                        <Label layoutX="122.0" layoutY="143.0" prefHeight="15.0" prefWidth="149.0" text="You have 5 feedom" />
+                        <Label layoutX="122.0" layoutY="219.0" prefHeight="15.0" prefWidth="187.0" text="You haven't democracy" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab text="FREEDOM">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
