@@ -1,0 +1,140 @@
+body{
+  background: url("../../images/SoftUni-Open-Source-Lab-Strudents.jpg") no-repeat;
+  background-size: cover;
+
+  #wrapper{
+    width: 100%;
+    padding: 0;
+
+    main{
+
+      #main-content{
+        display: block;
+        width: 655px;
+        margin: 0 auto;
+        margin-top: 220px;
+
+        section{
+          width: 300px;
+          border: 1px solid black;
+          border-radius: 20px;
+          padding: 20px;
+          display: inline-block;
+
+          h1, h3{
+            text-align: center;
+          }
+
+          h1{
+            font-size: 2em;
+          }
+
+          h3{
+            font-size: 1.5em;
+          }
+
+          form{
+            #choice{
+              margin-bottom: 20px;
+            }
+
+            .choice{
+              display: inline-block;
+              width: 48%;
+            }
+
+            input[type="button"]{
+              height: 40px;
+              font-size: 1.2em;
+              background-color: green;
+              color: white;
+            }
+
+            input.choice[value="False"]
+            {
+              float: right;
+              clear: both;
+              background-color: red;
+            }
+
+            #next{
+              display: none;
+              width: 100%;
+              margin-top: 20px;
+              background: linear-gradient(to bottom right, green, lightgreen);
+              text-transform: uppercase;
+            }
+
+            textarea{
+              display: none;
+              width: 99%;
+              height: 100px;
+              resize: none;
+              padding: 0;
+              margin: 0;
+              text-align: center;
+              vertical-align: middle;
+              border-radius: 30px;
+              border: 2px solid gray;
+              line-height: 100px;
+              font-weight: bolder;
+              font-size: 1.2em;
+            }
+          }
+
+        }
+
+        #dancho{
+          background: url("../../images/Jordan.jpg") no-repeat scroll 0% 50%;
+          background-size: 100%;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 105px;
+        }
+
+        #bubble1{
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 50px;
+        }
+
+        #bubble2{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 110px;
+        }
+
+        section, #bubble2, #bubble1{
+          background-color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+
+    footer{
+      color: white;
+      margin-top: 18%;
+    }
+
+    header{
+      background-color: #CEA413;
+      padding-left: 10px;
+
+      nav{
+        line-height: 25px;
+      }
+
+      li{
+        list-style-type: none;
+      }
+    }
+  }
+}

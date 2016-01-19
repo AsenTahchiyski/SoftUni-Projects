@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="board" id="board" questionID="">
+		
+	</div>
+
+	<form id="open-form" action="#" style="display:none">
+		Type answer: <input type="text" id="user-input">
+		<button type="button" onclick="checkAnswer(); currentQuestion++; displayQuestion()">Submit</button>
+	</form>
+
+	<form id="multiple-form" action="" style="display:none">
+		<div id="multiple-form-options"></div>
+		<button type="button" onclick="checkMultipleAnswer(); currentQuestion++; displayQuestion()">Submit</button>
+	</form>
+
+	<script src="js/beer-quiz.js"></script>
+	
+</body>
+</html>

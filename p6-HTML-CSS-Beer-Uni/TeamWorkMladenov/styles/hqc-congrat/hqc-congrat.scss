@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Blazed;
+  src: url("../fonts/Blazed/Blazed.ttf");
+}
+
+body{
+  #container{
+    #last{
+      width: 100%;
+      font-family: Blazed, serif;
+      color: green;
+      text-transform: uppercase;
+      font-size: 4em;
+    }
+
+    p{
+      text-transform: uppercase;
+    }
+
+    button#back{
+      font-family: Blazed;
+      color: blue;
+      background-color: lightgray;
+    }
+
+    #dancho2{
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+      background-size: 150%;
+      position: relative;
+      vertical-align: bottom;
+      top: 100px;
+      animation-name: dancho2;
+    }
+  }
+}
+
+@keyframes dancho2 {
+  0% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 0%;
+    top: 100px;
+  }
+  10% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 10%;
+    top: 80px;
+  }
+  20% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 20%;
+    top: 60px;
+  }
+  30% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 30%;
+    top: 40px;
+  }
+  40% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 40%;
+    top: 20px;
+  }
+  50% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 50%;
+    top: 0px;
+  }
+  60% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 60%;
+    top: 20px;
+  }
+  70% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 70%;
+    top: 40px;
+  }
+  80% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 80%;
+    top: 60px;
+  }
+  90% {
+    background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+    background-size: cover;
+    left: 90%;
+    top: 80px;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "1": {
+    "type": "multiple",
+    "question": "What is the average alcohol % in lager beers?",
+    "answer": "5%",
+    "options": [
+      "3%",
+      "10%",
+      "5%"
+    ]
+  },
+  "2": {
+    "type": "multiple",
+    "question": "Hops and hemp belong to the same botanical family.",
+    "answer": "True",
+    "options": [
+      "True",
+      "False"
+    ]
+  },
+  "3": {
+    "type": "multiple",
+    "question": "Lager beers have always light color.",
+    "answer": "False",
+    "options": [
+      "True",
+      "False"
+    ]
+  },
+  "4": {
+    "type": "multiple",
+    "question": "Ales are served colder than lagers.",
+    "answer": "False",
+    "options": [
+      "True",
+      "False"
+    ]
+  },
+  "5": {
+    "type": "multiple",
+    "question": "What is typical for lager beer properties:",
+    "answer": "Its bitterness",
+    "options": [
+      "Its bitterness",
+      "Its aroma"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+body {
+    background: url("../../images/SoftUni-Open-Source-Lab-Strudents.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+body #wrapper {
+    width: 100%;
+    padding: 0;
+}
+
+body #wrapper main #main-content {
+    display: block;
+    width: 655px;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+body #wrapper main #main-content section {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+body #wrapper main #main-content section h1, body #wrapper main #main-content section h3 {
+    text-align: center;
+}
+
+body #wrapper main #main-content section h1 {
+    font-size: 2em;
+}
+
+body #wrapper main #main-content section h3 {
+    font-size: 1.5em;
+}
+
+body #wrapper main #main-content section form #choice {
+    margin-bottom: 20px;
+}
+
+body #wrapper main #main-content section form .choice {
+    display: inline-block;
+    width: 48%;
+}
+
+body #wrapper main #main-content section form input[type="button"] {
+    height: 40px;
+    font-size: 1.2em;
+    background-color: green;
+    color: white;
+}
+
+body #wrapper main #main-content section form input.choice[value="False"] {
+    float: right;
+    clear: both;
+    background-color: red;
+}
+
+body #wrapper main #main-content section form #next {
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, green, lightgreen);
+    text-transform: uppercase;
+}
+
+body #wrapper main #main-content section form textarea {
+    display: none;
+    width: 99%;
+    height: 100px;
+    resize: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 30px;
+    border: 2px solid gray;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+body #wrapper main #main-content #dancho {
+    background: url("../../images/Jordan.jpg") no-repeat scroll 0% 50%;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 105px;
+}
+
+body #wrapper main #main-content #bubble1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+body #wrapper main #main-content #bubble2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 110px;
+}
+
+body #wrapper main #main-content section, body #wrapper main #main-content #bubble2, body #wrapper main #main-content #bubble1 {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+body #wrapper footer {
+    color: white;
+    margin-top: 13%;
+}
+
+body #wrapper header {
+    background-color: #CEA413;
+    padding-left: 10px;
+}
+
+body #wrapper header nav {
+    line-height: 25px;
+}
+
+body #wrapper header li {
+    list-style-type: none;
+}
+
+/*# sourceMappingURL=hqc-style.css.map */

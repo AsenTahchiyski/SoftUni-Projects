@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Blazed;
+  src: url("../fonts/Blazed/Blazed.ttf"); }
+body #container #last {
+  width: 100%;
+  font-family: Blazed, serif;
+  color: green;
+  text-transform: uppercase;
+  font-size: 4em; }
+body #container p {
+  text-transform: uppercase; }
+body #container button#back {
+  font-family: Blazed;
+  color: blue;
+  background-color: lightgray; }
+body #container #dancho2 {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+  background-size: 150%;
+  position: relative;
+  vertical-align: bottom;
+  top: 100px;
+  animation-name: dancho2; }

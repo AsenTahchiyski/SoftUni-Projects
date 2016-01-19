@@ -1,0 +1,16 @@
+@media all and (max-width: 720px){
+    body #wrapper main #main-content #dancho,
+    body #wrapper main #main-content #bubble1,
+    body #wrapper main #main-content #bubble2{
+        display: none;
+    }
+
+    body #wrapper main #main-content section{
+        display: block;
+        margin: 0 auto;
+    }
+
+    body #wrapper main #main-content{
+        width: auto;
+    }
+}

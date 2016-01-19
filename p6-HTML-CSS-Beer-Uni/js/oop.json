@@ -1,0 +1,52 @@
+{
+  "1": {
+    "type": "multiple",
+    "question": "What is the parent class for beers?",
+    "answer": "Barley",
+    "options": [
+      "Barley",
+      "Wheat",
+      "Marijuana"
+    ]
+  },
+  "2": {
+    "type": "multiple",
+    "question": "What does Antibeermorphism mean?",
+    "answer": "Don`t touch my beer!",
+    "options": [
+      "Buy me a beer!",
+      "Go to the toilet!",
+      "Don`t touch my beer!"
+    ]
+  },
+  "3": {
+    "type": "multiple",
+    "question": "Override Beer ToString()",
+    "answer": "I love beer!",
+    "options": [
+      "My precious!",
+      "I love beer!",
+      "Did you go to the toilet?"
+    ]
+  },
+  "4": {
+    "type": "multiple",
+    "question": "Most popular method for drinking beer?",
+    "answer": "From the bottle!",
+    "options": [
+      "From the bottle!",
+      "Mixed with vodka!",
+      "I think i have to go to the toilet..."
+    ]
+  },
+  "5": {
+    "type": "multiple",
+    "question": "Got back from the toilet, any beers left?",
+    "answer": "Yes",
+    "options": [
+      "Yes",
+      "No",
+      "Only Non-Alcoholic"
+    ]
+  }
+}

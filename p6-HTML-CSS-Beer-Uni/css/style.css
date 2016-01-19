@@ -1,0 +1,391 @@
+body {
+    background-color: #cea413;
+}
+
+#wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#main {
+    height: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    background: url("../images/bubbles.png");
+    background-repeat: repeat;
+}
+
+#main section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+/*/////// STYLE ARTICLES////////*/
+#article-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+#article-container>article{
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 4%;
+    position: relative;
+    height: 350px;
+    border: 1px solid #234465;
+}
+
+#article-container>article>header{
+    text-align: left;
+    background-color: #234465;
+    padding: 10px 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+#article-container>article>header>h3{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#article-container>article>main>ul>li{
+    text-align: left;
+    color:  #234465;
+    padding: 15px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#article-container>article>main>ul>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#article-container>article>main>ul>li>span{
+    font-weight: bold;
+}
+
+#article-container>article>main>ul>li>.time{
+    font-weight: bold;
+}
+
+#article-container>article>main>ul>:last-child{
+    border-bottom: none;
+}
+
+#article-container>article>footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+}
+
+#article-container>article>footer>.button{
+    background-color: #FFA000;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#article-container>article>footer>.button:hover{
+    cursor: pointer;
+}
+
+#article-container>article>footer>.button:hover{
+    background-color: #234465;
+}
+
+/*/////// STYLE ARTICLES////////*/
+
+.beers {
+    width: 50px;
+    height: 75px;
+    display: inline-block;
+    margin: 0 auto;
+    background: url(../images/beer-sprite-transparent.png) -400px 0;
+    background-repeat: no-repeat;
+}
+
+.beers[active] {
+    border-bottom: 3px solid #234465;
+}
+
+#main section a {
+    margin: 0 36px;
+    text-decoration: none;
+}
+
+#main section a input {
+    width: 50%;
+    height: 50px;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+#main section a input:hover {
+    cursor: pointer;
+}
+
+#main section form span {
+    font-size: 18px;
+}
+
+#question {
+    width: 100%;
+    color: black;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#footer {
+    height: 60px;
+}
+
+#logo {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#apply {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    display: block;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+#apply a, button, #main section a input  {
+    text-decoration: none;
+    color: #CEA413;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #234465;
+    border-radius: 50px;
+    border: none;
+}
+
+#apply a:hover, button:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #234465;
+    cursor: pointer
+}
+
+header nav {
+    line-height: 35px;
+    padding-bottom: 10px;
+    display: inline-block;
+    float: right;
+}
+
+#text-items {
+    float: right;
+}
+
+#text-items li {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+}
+
+#text-items li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+#text-items li a:hover {
+    color: #d1cfc8;
+}
+
+.dropdown::after {
+    content: " ▼";
+}
+
+.dropdown-menu {
+    padding: 0 15px;
+    margin: 5px auto;
+    visibility: hidden;
+}
+
+.dropdown-menu li {
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+.dropdown-menu a {
+    display: inline-block;
+}
+
+.dropdown-button:hover ul {
+    visibility: visible;
+}
+
+#icon-items {
+    margin-top: -8px;
+    text-align: center;
+    float: right;
+    width: 150px;
+}
+
+#icon-items a {
+    margin: 5px;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+#search {
+    background: url(../images/Magnifying_glass.png);
+    background-position: 0 -1px;
+}
+
+#search:hover {
+    background: url("../images/Magnifying_glass.png");
+    background-position: 0 -38px;
+}
+
+#notification {
+    background: url(../images/Bell.png);
+    background-position: 0 -1px;
+}
+
+#notification:hover {
+    background: url(../images/Bell.png);
+    background-position: 0 -38px;
+}
+
+#profile {
+    background: url(../images/Profile.png);
+    background-size: contain;
+    /*border: 2px solid #ccc;*/
+    border-radius: 100%;
+}
+
+.questions {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #234465;
+}
+
+#board {
+    background: url('../images/whiteboard.png');
+    background-repeat: no-repeat;
+    height: 334px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 0 20px;
+    box-sizing: border-box;
+    float: left;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.cor-answer {
+    color: green;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.incorrect-answer {
+    color: red;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.answer-section {
+    width: 20%;
+}
+
+.container, .first-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #234465;
+    color: #fff;
+    text-align: center;
+    z-index: 9999;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#links {
+    margin: auto;
+}
+
+footer a {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 100%;
+}
+
+#github {
+    background: url(../images/github-512.png);
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#multiple-form {
+    text-align: left;
+}
+
+#multiple-form > button {
+    margin: 10px;
+}
+#error {
+    display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.4) url("../images/404.png") no-repeat;
+    background-size: contain;
+}
+
+#certificate {
+    display: block;
+    margin: 0 auto;
+    max-width: 527px;
+    height: 768px;
+    background: rgba(255, 255, 255, 0.4) url("../images/certificate.jpg") no-repeat;
+    background-size: contain;
+}

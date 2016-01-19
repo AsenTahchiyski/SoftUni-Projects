@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Horor;
+  src: url(../fonts/the_cramps/The%20Cramps.ttf);
+}
+
+@font-face {
+  font-family: Blazed;
+  src: url("../fonts/Blazed/Blazed.ttf");
+}
+
+body {
+  background-image: url("../../images/giphy.gif");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  #container {
+
+    header{
+      background-color: #CEA413;
+      padding-left: 10px;
+
+      nav{
+        line-height: 25px;
+      }
+
+      li{
+        list-style-type: none;
+      }
+    }
+
+    section{
+      height: 700px;
+      position: relative;
+      text-align: center;
+
+      h1, p, #button{
+        color: white;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+      }
+
+      p{
+        text-align: center;
+        margin-bottom: 90px;
+        font-size: 2.2em;
+      }
+
+      h1{
+        font-family: Horor;
+        font-size: 4em;
+        text-align: center;
+        margin-bottom: 150px;
+        letter-spacing: 5px;
+
+        span{
+          color: red;
+        }
+      }
+
+      button{
+        font-family: Horor;
+        background-color: lightgray;
+        color: black;
+        width: 300px;
+        height: 60px;
+        font-size: 2.5em;
+        border-radius: 30px;
+        float: none;
+      }
+    }
+
+    #dancho {
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: url("../../images/Yordan-Darakchiev.jpg") scroll 38% 43%;
+      background-size: 150%;
+      position: relative;
+      vertical-align: bottom;
+      top: 100px;
+      animation-name: shake;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+footer{
+  color: white;
+  margin-top: 100px;
+}
+
+@keyframes shake {
+  0% {
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  2% {
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+
+  4% {
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  6% {
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+
+  8% {
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+
+  10% {
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+
+  30% {
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  45% {
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+
+
+
+
+
+
+
