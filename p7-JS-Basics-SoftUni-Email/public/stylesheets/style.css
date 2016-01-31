@@ -1,0 +1,62 @@
+body {
+    padding: 25px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+a {
+    color: #00B7FF;
+}
+
+canvas {
+    /*border: 1px solid #000;*/
+
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#myCanvas {
+    position: absolute;
+    background: url("../../resources/background.jpg");
+    background-size: 30%;
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+#player1 {
+    float: left;
+}
+
+#player2 {
+    float: right;
+}
+
+#player3 {
+    float: left;
+}
+
+#player4 {
+    float: right;
+}
+
+.card {
+    position: static;
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 650px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
