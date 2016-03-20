@@ -1,0 +1,19 @@
+<section class="gallery-grid_holder">
+    <h2 class="gallery-grid_heading">Album Pictures</h2>
+    <ul class="gallery-grid">
+        <li class="gallery" id="">
+            <span class="add-picture" id="add-picture">Add Picture</span>
+        </li>
+        {{#pictures}}
+        <li class="gallery single-picture" data-id="{{_id}}">
+            <img src={{base64data}}>
+
+            <p class="picture-name">Uploaded by: {{name}}</p>
+            <span class="picture-rating">Rating: {{rating}}</span>
+            <!--<span>
+               <img src={{base64data}} /><br />Test photo title
+           </span>-->
+        </li>
+        {{/pictures}}
+    </ul>
+</section>

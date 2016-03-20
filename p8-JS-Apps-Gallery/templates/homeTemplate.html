@@ -1,0 +1,14 @@
+<section class="gallery-grid_holder">
+    <h2 class="gallery-grid_heading">Top rated albums</h2>
+    <ul class="gallery-grid">
+        {{#albums}}
+        <li class="gallery gallery-view" data-id="{{_id}}">
+            <img src={{backGroundPicture}}>
+
+            <p class="album-name">{{name}}</p>
+
+            <p class="album-rating">Rating: {{rating}}</p>
+        </li>
+        {{/albums}}
+    </ul>
+</section>

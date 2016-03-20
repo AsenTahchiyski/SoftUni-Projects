@@ -1,0 +1,533 @@
+/*
+    CSS RESET + some style adjustments
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, q, s, samp, small, strike, strong, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, section, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1.5;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+html {
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html *, html *:before, html *:after {
+    box-sizing: inherit;
+}
+
+/*
+    Custom styles
+*/
+
+body {
+    background-color: #f4f4f4;
+}
+
+.main-wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-header {
+    position: relative;
+}
+
+.main-header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.team-logo {
+    display: inline-block;
+}
+
+.team-logo img {
+    width: 45px;
+}
+
+.main-nav ul {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+
+.main-nav ul li {
+    display: inline-block;
+}
+
+.main-nav a {
+    padding: 10px 20px;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    color: inherit;
+}
+
+.main-nav a:hover {
+    color: tomato;
+}
+
+a.active-nav {
+    color: salmon;
+}
+
+.logout-nav {
+    display: none;
+}
+
+.forms-holder {
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.login-form {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    margin-left: 1.5%;
+    padding: 10px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h3 {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.login-form label {
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.login-form button {
+    width: 120px;
+    margin: 40px auto;
+    display: block;
+}
+
+.gallery-grid {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gallery-grid_heading {
+    padding: 30px 20px 0;
+    font-size: 18px;
+}
+
+.gallery-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.gallery {
+    display: inline-block;
+    float: left;
+    width: 220px;
+    height: 220px;
+    padding: 10px 0;
+    margin-left: 2%;
+    margin-top: 1%;
+    cursor: pointer;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+}
+
+.gallery:hover {
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.create-album, .create-album-form {
+    display: block;
+    width: 220px;
+    height: 220px;
+    padding-top: 100px;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+.create-album-form button {
+    margin-top: 10px;
+}
+
+.create-album_overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.create-album_form {
+    max-width: 50%;
+    margin: 15% auto;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.create-album_form .gallery-grid_heading {
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+.create-album_form button {
+    display: block;
+    margin-top: 10px;
+}
+
+.create-album_form .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.add-picture-form {
+    width: 100%;
+    height: 100%;
+    cursor: auto;
+}
+
+.add-picture-form label {
+    display: block;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.picture-input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.picture-upload {
+    display: inline-block;
+    width: 60%;
+    margin: 10px auto;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.add-picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+}
+
+.team-gallery {
+    padding-left: 100px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.team-member:nth-of-type(1) {
+    margin-left: 5%;
+}
+
+.team-member:nth-of-type(4) {
+    margin-left: 20%;
+}
+
+.team-member img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.team-member h3 {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.main-footer p {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.main-footer p img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+/* PHOTO POPUP */
+/*li.gallery {*/
+/*position: relative;*/
+/*z-index: 0;*/
+/*}*/
+
+/*li.gallery:not(.gallery-add):hover {*/
+/*background-color: transparent;*/
+/*z-index: 50;*/
+/*}*/
+
+/* CSS for enlarged image */
+/*ul.gallery-grid span:not(.add-picture):not(.create-album) {*/
+/*position: absolute;*/
+/*background-color: whitesmoke;*/
+/*padding: 5px;*/
+/*left: -1000px;*/
+/*border: 1px solid gray;*/
+/*visibility: hidden;*/
+/*color: black;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*li.gallery span:not(.add-picture):not(.create-album) {*/
+/*width: 800px;*/
+/*height: 800px;*/
+/*}*/
+
+/* CSS for enlarged image */
+/*li.gallery:not(.gallery-add) span:not(.add-picture):not(.create-album) img {*/
+/*border-width: 0;*/
+/*padding: 2px;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*}*/
+
+/* CSS for enlarged image on hover */
+/*li.gallery:hover span:not(.add-picture):not(.create-album) {*/
+/*visibility: visible;*/
+/*position: fixed;*/
+/*top: 60px;*/
+/*left: 555px; /!*position where enlarged image should offset horizontally *!/*/
+/*}*/
+
+.gallery-overlay {
+    display: block;
+    position: fixed;
+    overflow: scroll;
+    margin-bottom: -10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close-overlay {
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    right: -45px;
+}
+
+.single-image_holder {
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-15%);
+    -ms-transform: translateX(-50%) translateY(-15%);
+    transform: translateX(-50%) translateY(-15%);
+}
+
+.image-preview {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.comment-section, .rating-section {
+    width: 100%;
+    position: relative;
+    top: -10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.rating-section {
+    margin-bottom: 20px;
+}
+
+.single-picture {
+    line-height: 100%;
+}
+
+.picture-like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.picture-like-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.picture-name, .picture-rating {
+    font-size: 0.9em;
+}
+
+.download-image {
+    display: block;
+    width: 100px;
+    position: relative;
+    top: -64px;
+    left: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .gallery {
+        width: 45%;
+    }
+
+    .gallery-grid_heading {
+        text-align: center;
+    }
+
+    .create-album {
+        width: 100%;
+    }
+
+    #album-name {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .main-nav ul {
+        width: 100%;
+    }
+
+    .main-nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .gallery-grid {
+        display: block;
+        width: 100%;
+    }
+
+    .gallery {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+}

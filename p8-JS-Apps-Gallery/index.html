@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Album Recommen</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/libs/jquery-2.2.1.js"></script>
+    <script src="js/libs/q.js"></script>
+    <script src="js/libs/mustache.js"></script>
+    <script src="js/libs/sammy-latest.min.js"></script>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <header class="main-header">
+        <nav class="main-nav">
+            <h1 class="team-logo"><a href="#/">
+                <img src="img/team-logo.png" alt="team recommen logo"></a>
+            </h1>
+            <ul>
+                <li>
+                    <a href="#/" class="home-nav active-nav">HOME</a>
+                </li>
+                <li>
+                    <a href="#/albums" class="albums-nav">ALBUMS</a>
+                </li>
+                <li>
+                    <a href="#/about" class="about-nav">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#/logout" class="logout-nav">LOGOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-section">
+
+    </main>
+
+    <footer class="main-footer">
+        <p><a href="https://github.com/TeamRecommen" target="_blank"><img src="img/github.png" alt="">Team Recommen</a>
+            |
+            <a href="https://softuni.bg/" target="_blank">SoftUni</a> |
+            <a
+                    href="https://softuni.bg/trainings/1320/javascript-applications-february-2016" target="_blank">JavaScript
+                Applications March 2016</a></p>
+    </footer>
+
+</div>
+<script src="js/helpers/requester.js"></script>
+<script src="js/helpers/menuChanger.js"></script>
+<script src="js/helpers/galleryPopup.js"></script>
+
+<script src="js/bindingModels/album.js"></script>
+<script src="js/bindingModels/picture.js"></script>
+
+<script src="js/models/albumsModel.js"></script>
+<script src="js/models/userModel.js"></script>
+<script src="js/models/picturesModel.js"></script>
+
+<script src="js/views/albumsViews.js"></script>
+<script src="js/views/userViews.js"></script>
+<script src="js/views/picturesViews.js"></script>
+
+<script src="js/controllers/albumController.js"></script>
+<script src="js/controllers/userController.js"></script>
+<script src="js/controllers/picturesController.js"></script>
+
+
+<script src="jsTemporaryModules/eventsModule.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

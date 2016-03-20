@@ -1,0 +1,15 @@
+<section class="gallery-grid_holder">
+    <h2 class="gallery-grid_heading">Gallery Albums</h2>
+    <ul class="gallery-grid">
+        <li class="gallery gallery-add" data-id="gallery1">
+            <span class="create-album" id="create-album">Create Album</span>
+        </li>
+        {{#albums}}
+        <li class="gallery gallery-view" data-id="{{_id}}">
+            <img src={{backGroundPicture}} >
+            <p class="album-name">{{name}}</p>
+            <p class="album-rating">Rating: {{rating}}</p>
+        </li>
+        {{/albums}}
+    </ul>
+</section>

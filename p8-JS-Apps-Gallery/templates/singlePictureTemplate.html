@@ -1,0 +1,21 @@
+<div class="gallery-overlay" id="gallery-overlay">
+    <div class="single-image_holder">
+        <span class="close-overlay" id="close-overlay">
+            <img src="img/close_button.png">
+        </span>
+        <img src="{{base64data}}" class="image-preview">
+
+        <div class="comment-section">
+            <h5>Comments:</h5>
+
+            <p>{{comment}}</p>
+        </div>
+        <div class="rating-section">
+            <div class="picture-like-button">
+                <img src="img/like.png">
+            </div>
+            <p>Rating: {{rating}}</p>
+        </div>
+        <a href="{{base64data}}" download="{{_id}}.jpg" class="download-image">Download</a>
+    </div>
+</div>
